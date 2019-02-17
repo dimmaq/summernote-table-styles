@@ -72,6 +72,7 @@
               $dropdown.find("a").each(function() {
                 $(this).click(function() {
                   self.updateTableStyles(this);
+                  return false;
                 });
               });
             }
